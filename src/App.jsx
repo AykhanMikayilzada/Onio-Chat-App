@@ -13,6 +13,8 @@ import Chats from "./components/Chats.jsx"
 import Login from "./components/Login.jsx"
 
 function App() {
+  nodeIntegration: true;
+  contextIsolation: false;
   return (
     <div style={{ fontFamily: 'Avenir' }}>
       <Router>
